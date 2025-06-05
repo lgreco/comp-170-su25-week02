@@ -1,4 +1,4 @@
-# COMP 170 week 02
+# COMP 170 SU25 WEEK 02
 
 For this week's assignment focus on last week's reading assignment and work on the following items.
 
@@ -19,13 +19,18 @@ Then write a function that takes the list of friends and **prints** a greeting f
 
 ## Solve an equation
 
-The quadratic equation is defined as $ax^2+bx+c=0$. When $b^2-4ac\geq 0$ the solutions to the equation become
+The quadratic equation is defined as $ax^2+bx+c=0$. When $b^2-4ac< 0$ the equation has no solutions among real numbers (and we don't want to deal with *complex numbers,* at least not yet. 
+
+When however,  $b^2-4ac\geq 0$ the solutions to the equation are
 
 $$
 x_1 = \frac{-b-\sqrt{b^2-4ac}}{2a}
 $$
+
 and
+
 $$
 x_2 = \frac{-b+\sqrt{b^2-4ac}}{2a}
 $$
-Write a function called `solve_quadratic` that takes three arguments, `a`, `b`, and `c`, and **prints** the solutions to the quadratic equation or displays the message "no real solutions".
+
+Write a function called `solve_quadratic` that takes three arguments, `a`, `b`, and `c`, and **prints** the solutions to the quadratic equation or prints the message "no real solutions".
