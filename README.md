@@ -22,5 +22,10 @@ Then write a function that takes the list of friends and **prints** a greeting f
 The quadratic equation is defined as $ax^2+bx+c=0$. When $b^2-4ac\geq 0$ the solutions to the equation become
 
 $$
-x_{\color{red}{1,2}}
+x_1 = \frac{-b-\sqrt{$b^2-4ac}}{2a}
 $$
+and
+$$
+x_2 = \frac{-b+\sqrt{$b^2-4ac}}{2a}
+$$
+
