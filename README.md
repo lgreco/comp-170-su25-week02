@@ -17,3 +17,6 @@ my_friends = ["Frodo", "Sam", "Gandalf"]
 ```
 Then write a function that takes the list of friends and **prints** a greeting for every one of them using function `greet(name)` from earlier.
 
+## Solve an equation
+
+$$x$$
