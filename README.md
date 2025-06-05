@@ -26,6 +26,6 @@ x_1 = \frac{-b-\sqrt{b^2-4ac}}{2a}
 $$
 and
 $$
-x_2 = \frac{-b+\sqrt{b^2-4ac}}{2a}\color{red}x
+x_2 = \frac{-b+\sqrt{b^2-4ac}}{2a}
 $$
-
+Write a function called `solve_quadratic` that takes three arguments, `a`, `b`, and `c`, and **prints** the solutions to the quadratic equation or displays the message "no real solutions".
